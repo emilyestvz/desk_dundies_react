@@ -11,17 +11,17 @@ function App() {
   return (
     <>
      <ToastContainer />
-     <Navbar />
+      <Navbar />
 
-     <div className='min-h-[89vh]'>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/home' element={<Home />} />
-        <Route path='/colaboradores' element={<Colaboradores />} />
-        <Route path='/departamentos' element={<Departamentos />} />
-        <Route path='/sobre' element={<About />} />
-      </Routes>
-     </div>
+        <div className='min-h-[89vh]'>
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/home' element={<Home />} />
+              <Route path='/colaboradores' element={<Colaboradores />} />
+              <Route path='/departamentos' element={<Departamentos />} />
+              <Route path='/sobre' element={<About />} />
+            </Routes>
+        </div>
 
       <Footer />
     </>
